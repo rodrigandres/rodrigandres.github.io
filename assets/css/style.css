@@ -1,0 +1,49 @@
+:root {
+	--primary: #19A3B8;
+	--secundary: #000000;
+}
+
+/* GLOBAL STYLES */
+.card-color {
+	background-color: var(--primary);
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: var(--secundary)
+}
+
+/* NAVBAR */
+#menuFijo {
+	background-color: transparent;
+	transition: background-color 0.5s ease;
+}
+
+.menu-color-fijo-scroll {
+	background-color: rgba(0, 0, 0, 0.9) !important;
+	transition: background-color 1s ease;
+}
+
+/* CAROUSEK */
+.carruseles {
+	max-height: 500px;
+	width: 500px;
+	object-fit: cover;
+}
+
+.fas {
+	background-color: var(--primary);
+}
+
+
+/* CARD */
+@media only screen and (max-width: 600px) {
+	.card {
+		width: 80% !important;
+	}
+}
